@@ -14,9 +14,11 @@ YAML - A complete course for developers covers YAML fundamentals, practical synt
 🫀Core Data Types and Representations
 - Scalars: plain strings, quoted strings ("..." or '...'), numbers, booleans (true/false), and null (null or ~).
 - Sequences (lists): dash - at same indent level for each item. Example:
-- languages:
-- - Python
-- - JavaScript.
+```
+ languages:
+   - Python
+   - JavaScript
+```
 - Mappings (objects/dictionaries): parent: followed by indented child: value lines for nested structures.
 - Multi-line strings: block style | preserves newlines; folded style > folds newlines into spaces for wrapped paragraphs.
 
