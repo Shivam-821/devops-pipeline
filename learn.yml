@@ -55,4 +55,19 @@ prefered_steps:
     way: listen to music and relax by watching when feel exhaust
 
 
-     
+# dictionary sometimes look complex and difficult to work
+
+learning: 
+  path: 
+    easy: watch video
+    notes: 
+      important_points: note them
+      practice: continuously
+    implementation:
+      pratical: try out all concepts
+      experiments: perform and try new things
+  medium: 
+    mode: virtual
+    language:
+      easy: hindi
+      medium: english
