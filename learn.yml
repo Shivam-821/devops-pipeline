@@ -1,0 +1,58 @@
+version: 1.1 # version of the configuration, not of yaml 
+
+learner_type: beginner
+focus: sharp
+time: 3
+
+# string
+name: Shivam Raj  # spaces can be give, but can create issure sometimes
+descriptions: "learning about yaml files, pipeline and github actions" # best practice
+title: 'learning in correct way'
+
+learning_instructions: |
+  listen carefully
+  think by yourself
+  write down important points
+  practice it on your code editor
+
+study_plans: >
+  quick revise the notes 
+  try to perform all theory pratically
+  try to do new experiments
+  give equal times to all
+
+# number
+hrs_per_day: 2.5
+
+# boolean
+take_break_in_between: true
+learn_new_things: yes  # true, yes, on is consider as true  &  false, no, off as false
+
+# null
+learning_phase: null
+any_chance: ~  # both are consider as null
+
+# timestamp
+starting_date: 2025-10-07
+local_time: 2025-10-07 08:30:00
+
+# list or array
+
+learning_steps:
+  - self learning or video tutorial
+  - listen and read carefully
+  - make notes of important things
+  - practically perform all theory concepts
+  - true
+  
+old_way: [2, hello, true] # this is the old way to declare the list and rarely used
+
+# nested list
+prefered_steps: 
+  - name: traditional way
+    way: do yoga and exercise when feel exhaust
+  - name: modern way
+    way: listen to music and relax by watching when feel exhaust
+
+
+     
