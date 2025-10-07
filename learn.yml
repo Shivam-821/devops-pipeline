@@ -71,3 +71,29 @@ learning:
     language:
       easy: hindi
       medium: english
+
+
+# default base 
+default_plan: &default_base  # <-- anchor
+  time: 2hrs
+  plan: flexible
+  motivation: full
+
+morning_plan:
+  <<: *default_base
+  subject: yaml
+
+afternoon_plan:
+  <<: *default_base
+  subject: devops
+  pratical: true
+
+zip_code: !!str 123456
+count: !!int "234"
+value: !!float "663.5"
+
+set_value: !!set
+  ? hello
+  ? Nice
+  ? Play
+  ? 35
